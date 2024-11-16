@@ -1,0 +1,19 @@
+.summaries-container {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+.summary-item {
+    padding: .25rem .75rem;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    max-width: 45%;
+    flex-grow: 1;
+    align-content: center;
+}

@@ -1,0 +1,46 @@
+.interview-start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.topic-buttons {
+  display: flex;
+  gap: 2rem;
+}
+
+.topic-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+}
+
+.topic-button {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  outline: 5px solid #000000;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 150ms ease;
+}
+
+.topic-button:hover {
+  outline-color: #0ac2ff;
+}
+
+.button-icon {
+  width: 48px;
+  height: 48px;
+}
